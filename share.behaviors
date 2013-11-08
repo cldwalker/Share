@@ -1,0 +1,3 @@
+{:+ {:app [(:lt.objs.plugins/load-js "share_compiled.js" true)
+           (:lt.objs.plugins/load-js "lib/firebase.js" true)
+           (:lt.objs.plugins/load-js "lib/firepad.js" true)]}}
