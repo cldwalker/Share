@@ -54,7 +54,7 @@
     (editor/replace-selection ed text)))
 
 (cmd/command {:command :share.attach
-              :desc "Share: Attaches current tab to given ID"
+              :desc "Share: Attach current tab"
               :exec (fn []
                       (let [ed (pool/last-active)
                             input-callback (fn [ed input]
@@ -64,7 +64,7 @@
                         (input (partial input-callback ed) :header "Enter ID")))})
 
 (cmd/command {:command :share.share
-              :desc "Share: Shares current tab and copies id to clipboard"
+              :desc "Share: Share current tab"
               :exec (fn []
                       (let [ed (pool/last-active)
                             ref (share-ref)
