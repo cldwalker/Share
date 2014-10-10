@@ -7,6 +7,8 @@ users using a browser-based CodeMirror editor. Shared connections are pesisted
 through a _public_ [firebase](https://www.firebase.com/) connection. If you're
 concerned about privacy, consider getting a free private ccount.
 
+![Usage Example](example.gif)
+
 ## Install
 
 Install this plugin with LT's plugin manager or clone this project to your LT
