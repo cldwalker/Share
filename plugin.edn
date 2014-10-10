@@ -1,5 +1,5 @@
 {:name "Share"
- :author "Jamie Brandon"
- :source "https://github.com/jamii/lt-share"
+ :author "Gabriel Horner and Jamie Brandon"
+ :source "https://github.com/cldwalker/Share"
  :desc "Collaborative editing for Light Table"
  :behaviors "share.behaviors"}
