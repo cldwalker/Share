@@ -19,7 +19,7 @@ plugins directory.
 ### Two LT users
 
 * First user shares their current tab with command `Share: Share current tab`. ID of created session is copied to clipboard.
-* Second user opens a new tab, executes command `Share: Attach current tab` and inputs first user's ID.
+* Second user opens a new tab with command `File: New file`, executes command `Share: Attach current tab` and inputs first user's ID.
 
 Two LT editors are in sync!
 
@@ -39,7 +39,7 @@ LT user and browser user are in sync!
 
 ## Tips
 
-* In pairing scenarios where eval and other LT features matter, consider screensharing.
+* In pairing scenarios where eval and other LT features matter, make sure to open a new tab in the same project as the sharer. Also consider screensharing to see the sharer's eval.
 * When pairing on anything that's not a plain text file, sharees should set their file syntax with the command `Editor: Set current editor syntax`.
 * Given the ease of sharing, even between browser and editor, this plugin is a good fit for [swarm coding](http://technomancy.us/162) a.k.a. pairing as a group.
 
